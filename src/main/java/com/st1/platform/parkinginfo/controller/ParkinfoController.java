@@ -1,18 +1,18 @@
-package com.st1.platform.carpark;
+package com.st1.platform.parkinginfo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/carparks")
+@RequestMapping("/parkinfos")
 @Controller
-public class CarparkController {
+public class ParkinfoController {
 
     @GetMapping
-    public String carparks(ModelMap map){
+    public String parkinfos(ModelMap map){
 
-        return "carparks/index";
+        return "parkinfos/index";
     }
 
 }

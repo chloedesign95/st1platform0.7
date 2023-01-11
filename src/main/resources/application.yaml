@@ -13,7 +13,7 @@ server:
 #datasource : 연결할 Database 설정 (url, driver, username, password)
 spring:
   datasource:
-    url: jdbc:mariadb://59.1.39.122:1577/anydesk_address
+    url: jdbc:mariadb://59.1.39.122:1577/st1platform
     username: sogno
     password: sogno1234
     driver-class-name: org.mariadb.jdbc.Driver
